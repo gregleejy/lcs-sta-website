@@ -1,0 +1,103 @@
+/* Import Google Font (Similar to LCS) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF; /* White Background */
+    color: #0c0c41; /* Dark Blue Text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #0c0c41; /* Dark Blue */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Flexbox for Logo + Title */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Space between logo and text */
+}
+
+/* Logo Styling */
+.logo {
+    width: auto; /* Ensure natural width */
+    max-width: 120px; /* Adjust for visibility */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Headings */
+h2 {
+    color: #0c0c41; /* Dark Blue */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 31, 63, 0.2); /* Slight shadow */
+}
+
+/* Table Header */
+th {
+    background-color: #0c0c41; /* Dark Blue */
+    color: #FFFFFF; /* White Text */
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table Rows */
+td {
+    border: 1px solid #0c0c41; /* Dark Blue Borders */
+    padding: 12px;
+    text-align: left; /* Align text for better readability */
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background-color: #f8f9fa; /* Light Gray */
+}
+
+/* Adjust Column Widths for Rewards Table */
+#rewards-table th:nth-child(1),
+#rewards-table td:nth-child(1) {
+    width: 25%; /* Reward Name */
+}
+
+#rewards-table th:nth-child(2),
+#rewards-table td:nth-child(2) {
+    width: 50%; /* Description */
+}
+
+#rewards-table th:nth-child(3),
+#rewards-table td:nth-child(3) {
+    width: 15%; /* Required Coins */
+    text-align: center;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
