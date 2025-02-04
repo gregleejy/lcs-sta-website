@@ -77,6 +77,22 @@ tr:nth-child(even) {
     background-color: #f8f9fa; /* Light Gray */
 }
 
+/* Team Logo Styling */
+.team-logo {
+    width: 30px;  /* Adjust logo size */
+    height: 30px; /* Keep logos uniform */
+    margin-right: 10px; /* Space between logo and text */
+    vertical-align: middle; /* Aligns the logo with text */
+    border-radius: 50%; /* Makes the logo circular */
+}
+
+.raving-logo {
+    width: 30px;  /* Adjust logo size */
+    height: 30px; /* Keep logos uniform */
+    margin-right: 10px; /* Space between logo and text */
+    vertical-align: middle; /* Aligns the logo with text */
+}
+
 /* Adjust Column Widths for Rewards Table */
 #rewards-table th:nth-child(1),
 #rewards-table td:nth-child(1) {
@@ -101,5 +117,9 @@ tr:nth-child(even) {
     }
     th, td {
         padding: 8px;
+    }
+    .team-logo {
+        width: 25px;
+        height: 25px;
     }
 }
