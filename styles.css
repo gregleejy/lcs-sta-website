@@ -23,21 +23,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap; /* Allows wrapping on small screens */
-    text-align: center;
+    gap: 15px; /* Space between logo and text */
 }
-
-/* Make tables responsive */
-.table-container {
-    overflow-x: auto; /* Enables horizontal scrolling on small screens */
-}
-
-table {
-    width: 100%;
-    min-width: 600px; /* Prevents table from shrinking too much */
-}
-
 
 /* Logo Styling */
 .logo {
@@ -107,27 +94,10 @@ tr:nth-child(even) {
 
 /* Responsive Styling */
 @media (max-width: 768px) {
-    header {
-        padding: 15px;
+    table {
+        width: 100%;
     }
-
-    h2 {
-        font-size: 1.5em; /* Reduce font size for better fit */
-    }
-
-    /* Stack header elements on smaller screens */
-    .header-container {
-        flex-direction: column; /* Makes logo & title stack */
-        text-align: center;
-    }
-
-    /* Reduce padding in tables */
     th, td {
         padding: 8px;
-    }
-
-    /* Ensure tables fit mobile screens */
-    .table-container {
-        overflow-x: auto; /* Scrollable tables */
     }
 }
