@@ -23,7 +23,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px; /* Space between logo and text */
+    gap: 15px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+    text-align: center;
 }
 
 /* Logo Styling */
