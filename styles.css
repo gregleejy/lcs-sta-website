@@ -18,6 +18,10 @@ header {
     text-align: center;
 }
 
+footer p {
+    padding-left: 80px; /* Adjust the value as needed */
+}
+
 /* Header Flexbox for Logo + Title */
 .header-container {
     display: flex;
