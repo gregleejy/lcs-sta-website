@@ -36,4 +36,4 @@ This is a simple, responsive website for **Lion City Sailors Football Club**'s S
 
 ## 📄 License
 
-This project was used to convey important information regarding the Lion City Sailors Football Club's Social Team Affiliates Programme to our participants.
+This project was used for the Lion City Sailors Football Club's Social Team Affiliates Programme.
