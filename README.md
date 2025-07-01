@@ -1,6 +1,6 @@
 # Lion City Sailors Website
 
-This is a simple, responsive website for **Lion City Sailors**, built with **HTML**, **CSS**, and **JavaScript**.
+This is a simple, responsive website for **Lion City Sailors Football Club**'s Social Team Affiliate Programme, built with **HTML**, **CSS**, and **JavaScript**.
 
 ## ✨ Features
 
@@ -36,4 +36,4 @@ This is a simple, responsive website for **Lion City Sailors**, built with **HTM
 
 ## 📄 License
 
-This project is for educational and demonstration purposes only.
+This project was used to kickstart Lion City Sailors Football Club's Social Team Affiliates Programme.
