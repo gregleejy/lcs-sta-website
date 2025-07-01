@@ -22,7 +22,7 @@ This is a simple, responsive website for **Lion City Sailors**, built with **HTM
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/your-username/lion-city-sailors-website.git
+   git clone https://github.com/your-username//lcs-sta-website.git
    ```
 2. **Open `index.html` in your browser**
 3. **Or access the live website here:**
