@@ -1,14 +1,15 @@
-Lion City Sailors Website
-This is a simple, responsive website for Lion City Sailors, built with HTML, CSS, and JavaScript.
+# Lion City Sailors Website
 
-✨ Features
-Modern layout and styling with CSS
+This is a simple, responsive website for **Lion City Sailors**, built with **HTML**, **CSS**, and **JavaScript**.
 
-Interactive elements using JavaScript
+## ✨ Features
 
-Mobile-friendly design
+* Modern layout and styling with CSS
+* Interactive elements using JavaScript
+* Mobile-friendly design
 
-📂 Project Structure
+## 📂 Project Structure
+
 ```
 /project-root
   ├── index.html
@@ -16,22 +17,23 @@ Mobile-friendly design
   └── script.js
 ```
 
-🚀 Getting Started
-Clone the repository
-```
-git clone https://github.com/your-username/lion-city-sailors-website.git
-Open index.html in your browser
+## 🚀 Getting Started
 
-Or access the live website here:
-[View Website](https://gregleejy.github.io/lcs-sta-website/)
-```
+1. **Clone the repository**
 
-🛠️ Technologies
-HTML – Structure and content
+   ```
+   git clone https://github.com/your-username/lion-city-sailors-website.git
+   ```
+2. **Open `index.html` in your browser**
+3. **Or access the live website here:**
+   [View Website](https://gregleejy.github.io/lcs-sta-website/)
 
-CSS – Styling and responsiveness
+## 🛠️ Technologies
 
-JavaScript – Interactivity and dynamic behavior
+* **HTML** – Structure and content
+* **CSS** – Styling and responsiveness
+* **JavaScript** – Interactivity and dynamic behavior
 
-📄 License
+## 📄 License
+
 This project is for educational and demonstration purposes only.
